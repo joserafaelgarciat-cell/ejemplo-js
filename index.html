@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="numeroinput">
+    <button onclick="comprobar()">comprobar</button>
+
+
+    <script>
+        function comprobar() {
+            let numeroInput = document.getElementById("numeroinput").value;
+
+            if (numeroInput > 0) {
+                alert("positivo");
+            }
+            else {
+                alert("negativo");
+            }
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
